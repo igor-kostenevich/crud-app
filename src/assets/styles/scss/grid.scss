@@ -1,0 +1,12 @@
+.wrapper {
+  max-width: 100%;
+}
+
+.container-app {
+  display: flex;
+  min-height: 100vh;
+
+  @media (max-width: 1800px) {
+    flex-direction: column;
+  }
+}
